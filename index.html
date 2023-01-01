@@ -37,46 +37,50 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section__description">
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-              aspernatur velit quibusdam in modi aliquam nemo? Id optio a,
-              reiciendis natus excepturi ab magni quos voluptate animi nostrum
-              odio. Pariatur.
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
-              aspernatur velit quibusdam in modi aliquam nemo? Id optio a,
-              reiciendis natus excepturi ab magni quos voluptate animi nostrum
-              odio. Pariatur.
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Possimus aspernatur velit quibusdam in modi aliquam nemo? Id
+                optio a, reiciendis natus excepturi ab magni quos voluptate
+                animi nostrum odio. Pariatur.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Possimus aspernatur velit quibusdam in modi aliquam nemo? Id
+                optio a, reiciendis natus excepturi ab magni quos voluptate
+                animi nostrum odio. Pariatur.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./assets/about.jpg" alt="" />
+            </figure>
           </div>
-          <figure class="about__img--wrapper">
-            <img src="./assets/about.jpg" alt="" />
-          </figure>
         </div>
       </section>
 
       <section id="discord">
         <h2>Discord</h2>
-        <div class="section__description">
-          <figure class="about__img--wrapper">
-            <img src="./assets/discord.png" alt="Discord" />
-          </figure>
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              eligendi sunt ipsam a at, alias magnam ullam eaque illo molestiae?
-              At veritatis atque, deserunt dolores repudiandae debitis eaque
-              praesentium repellendus?
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-              eligendi sunt ipsam a at, alias magnam ullam eaque illo molestiae?
-              At veritatis atque, deserunt dolores repudiandae debitis eaque
-              praesentium repellendus?
-            </p>
+        <div class="row">
+          <div class="section__description">
+            <figure class="about__img--wrapper">
+              <img src="./assets/discord.png" alt="Discord" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus eligendi sunt ipsam a at, alias magnam ullam eaque
+                illo molestiae? At veritatis atque, deserunt dolores repudiandae
+                debitis eaque praesentium repellendus?
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus eligendi sunt ipsam a at, alias magnam ullam eaque
+                illo molestiae? At veritatis atque, deserunt dolores repudiandae
+                debitis eaque praesentium repellendus?
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -87,19 +91,22 @@
           <span>Email</span>
           <input type="email" placeholder="jane@example.com" />
           <span>Message</span>
-          <textarea type="text" placeholder="Cool website, let's get connected!"></textarea>
+          <textarea
+            type="text"
+            placeholder="Cool website, let's get connected!"
+          ></textarea>
           <button>Contact Us!</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img class="footer__logo" src="./assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
